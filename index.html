@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Write and Execute your own code!</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="header">
+		
+			<div id="logo">WebCode Executor</div>
+				<div id="button-wrapper">
+					<div class="toggle-button active" id="html">HTML</div>
+					<div class="toggle-button" id="css">CSS</div>
+					<div class="toggle-button" id="javascript">JavaScript</div>
+					<div class="toggle-button active" id="output">Output</div>
+				</div>
+
+	</div>
+	<div id="body-wrapper">
+			<textarea id="html-panel" class="panel"><h1 id="title">Test</h1></textarea>
+			<textarea id="css-panel" class="panel hidden">h1 { color: blue; }</textarea>
+			<textarea id="javascript-panel" class="panel hidden">document.getElementById("title").innerHTML = "This is how you change text..."</textarea>
+			<iframe id="output-panel" class="panel"></iframe>
+	</div>
+</body>
+</html>

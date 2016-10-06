@@ -1,0 +1,78 @@
+body {
+	font-family: 'Inconsolata', monospace;
+	padding: 0;
+	margin: 0;
+}
+
+iframe {
+	border: none;
+}
+
+textarea {
+	width: 50%;
+	resize: none;
+	border-top: none;
+	border-color: gray;
+
+}
+
+#header {
+	width: 100%;
+	background-color: #282625;
+	padding: 5px;
+	height: 50px;
+}
+
+#logo {
+	float: left;
+	font-weight: bold;
+	font-size: 120%;
+	padding: 3px 5px;
+	color: white;
+	margin: 10px;
+}
+
+#button-wrapper {
+	width: 230px;
+	margin: 0 auto;
+}
+
+#html {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+#output {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-right: 1px solid gray;
+}
+
+.toggle-button {
+	float: left;
+	border: 1px solid gray;
+	padding: 6px;
+	border-right: none;
+	font-size: 90%;
+	font-weight: bold;
+	margin-top: 10px;
+	color: #9A735F;
+}
+
+.active {
+	background-color: #E8F2FF;
+}
+
+.highlighted-button {
+	background-color: gray;
+}
+
+.panel {
+	float: left;
+	width: 50%;
+	border-left: none;
+}
+
+.hidden {
+	display: none;
+}
