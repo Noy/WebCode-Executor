@@ -25,7 +25,7 @@ $(document).ready(function() {
 	$(".panel").height($(window).height() - $("#header").height() - 15);
 	$(".panel").width(($(window).width() / 2) - 10);
 	updateOutput();
-	$("textarea").on('change keyup paste', function() {
+	$("#execute").click(function() {
 		updateOutput();
-	});
+	})
 });
