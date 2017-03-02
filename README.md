@@ -4,4 +4,4 @@ This is an extremely basic way of executing JavaScript, HTML and CSS within your
 
 Just something like jsbin.com
 
-[See for yourself!](https://noyh.github.io/WebCode-Executor)
+[See for yourself!](https://noy.github.io/WebCode-Executor)
