@@ -43,4 +43,4 @@ $(document).ready(function() {
 //    this.room.always_play_list = realList;
 //    console.log(realList);
 //    this.api.updateRoom(this.room).subscribe();
-
+// Ignore this, I only put this in here to make github recognise it as a JS project lol
