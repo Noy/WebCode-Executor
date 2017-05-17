@@ -29,3 +29,18 @@ $(document).ready(function() {
 		updateOutput();
 	})
 });
+
+//let realList;
+//    for (let list of this.alwaysPlayLists) {
+//      if (list.id == listId) {
+//        realList = list;
+//        break
+//      }
+//    }
+//    if (realList == undefined)
+//      realList = null;
+//
+//    this.room.always_play_list = realList;
+//    console.log(realList);
+//    this.api.updateRoom(this.room).subscribe();
+
